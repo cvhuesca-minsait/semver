@@ -1,0 +1,36 @@
+{
+  "name": "car",
+  "version": "2.0.0",
+  "description": "## Descripción",
+  "main": "index.js",
+  "engines": {
+    "node": "20.2.0",
+    "npm": "9.6.6"
+  },
+  "files": [
+    "src",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "engineStrict": true,
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "audit": "nodemon ./audit/index.js",
+    "deploy": "node ./deploy",
+    "build": "npm pack && mv car-**.tgz ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "crypto-js": "^4.2.0",
+    "inquirer": "^8.2.6",
+    "nodemon": "^3.1.0",
+    "tar": "^7.1.0"
+  },
+  "dependencies": {
+    "dotenv": "16.4.5"
+  }
+}

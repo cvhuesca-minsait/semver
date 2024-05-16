@@ -1,0 +1,14 @@
+Requerimientos para la creación de una clase Coche:
+✔ La clase Coche tiene los siguientes atributos: @done(24-05-16 17:17)
+    ✔ marca @done(24-05-16 17:17)
+    ✔ modelo @done(24-05-16 17:17)
+    ✔ color @done(24-05-16 17:17)
+✔ La clase Coche informa de la velocidad @done(24-05-16 17:26)
+✔ La clase Coche tiene los siguientes métodos: @done(24-05-16 17:27)
+    ✔ acelerar: aumenta la velocidad del coche en 5 km/h @done(24-05-16 17:27)
+    ✔ frenar: disminuye la velocidad del coche en 5 km/h @done(24-05-16 17:27)
+    ✔ stop: detiene el coche @done(24-05-16 17:27)
+☐ Dispone de una url de actualización del software del coche por entorno
+    ☐ Desarrollo
+    ☐ Pruebas
+    ☐ Producción
